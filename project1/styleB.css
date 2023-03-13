@@ -1,0 +1,36 @@
+.container {
+    font-size: 40px;
+    font-family: Tahoma;
+    text-align: left;
+    white-space: nowrap
+}
+
+.container div {
+    display: inline-block;
+    width: 100px;
+    height: 150px;
+    background-color: #eeeff2;
+    border-left: 10px dotted #D0D0FF;
+    cursor: pointer;
+    text-indent: 10px;
+    /* Q: 
+    solved: not in a line when resizing
+    solved: distance between boxes is not 10px, auto margin is 5 px on left and right
+    solved: distance between border and text is not 10px
+    solved: how to simplify: hover change color
+     */
+}
+
+#A, #B, #C, #D, #E {
+    border-left: 10px dotted #D0D0FF;
+}
+#F {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.container:hover div:hover {
+    background-color: yellow;
+    color: goldenrod;
+}

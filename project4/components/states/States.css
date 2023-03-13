@@ -1,0 +1,16 @@
+/*
+CSS for the CS142 Project 4, Problem 2 States component
+
+Since CSS uses a global name space for classes we should use names starting with
+cs142-states- here.
+*/
+.container {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.list {
+    color: cadetblue;
+    font-size: small;
+    background-color: antiquewhite;
+}

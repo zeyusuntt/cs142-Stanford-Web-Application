@@ -1,0 +1,11 @@
+.container {
+    font-size: 40px;
+    font-family: Tahoma;
+    text-align: center;
+}
+
+#A, #B, #C, #D, #E, #F {
+    background-image: linear-gradient(to bottom right, blue, purple);
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}

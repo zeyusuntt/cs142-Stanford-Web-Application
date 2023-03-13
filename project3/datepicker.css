@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    width : 250px;
+
+}
+
+.table {
+    width : 250px;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.elem {
+    text-align: center;
+}
+
+.prevNext {
+    opacity: 0.5;
+}
