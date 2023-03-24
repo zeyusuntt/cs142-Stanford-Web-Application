@@ -36,6 +36,12 @@ class UserList extends React.Component {
     });
     console.log(this.state.users);
   }
+
+  componentDidUpdate(prevProps){
+    if(prevProps.isLoggedIn !== this.props.isLoggedIn){
+      this.componentDidMount();
+    }
+  }
   
   render() {
     return (
